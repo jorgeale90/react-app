@@ -1,0 +1,40 @@
+.content {
+    font-family: 'Avenir', Arial, sans-serif;
+    margin: 0 auto;
+    flex-grow: 6;
+    padding: 16px;
+}
+
+p, h3, h5, code {
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 10px;
+    margin-inline-end: 10px;
+}
+
+a {
+    color: darkblue;
+    transition: all 0.3s ease-out;
+}
+
+.image-element {
+    width: calc(100% - 570px);
+    padding: 0 6px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 8px;
+}
+
+@media only screen and (max-width: 700px){
+    .image-element {
+        width: 49.99999%;
+        margin: 6px 0;
+    }
+}
+@media only screen and (max-width: 500px){
+    .image-element {
+        width: 100%;
+    }
+}
